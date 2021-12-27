@@ -5,6 +5,17 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venly", "Venly.Core\Venly.csproj", "{6470A420-78D2-42F7-8156-8DACE6E702B6}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Venly.Sample.Web", "Sample\Venly.Sample.Web\Venly.Sample.Web.njsproj", "{52F598BB-767A-4C36-9FB7-AAC3B9129325}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venly.Sample.API", "Sample\Venly.Sample.API\Venly.Sample.API.csproj", "{3C9A6517-9EB5-42FE-BE33-5442370D00E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{67A1A256-FB1B-4F04-BEA0-E24F116D7D7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{461A2340-B132-47D3-9F99-3793CBB3A5BB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +26,21 @@ Global
 		{6470A420-78D2-42F7-8156-8DACE6E702B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6470A420-78D2-42F7-8156-8DACE6E702B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6470A420-78D2-42F7-8156-8DACE6E702B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F598BB-767A-4C36-9FB7-AAC3B9129325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F598BB-767A-4C36-9FB7-AAC3B9129325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F598BB-767A-4C36-9FB7-AAC3B9129325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F598BB-767A-4C36-9FB7-AAC3B9129325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9A6517-9EB5-42FE-BE33-5442370D00E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9A6517-9EB5-42FE-BE33-5442370D00E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9A6517-9EB5-42FE-BE33-5442370D00E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9A6517-9EB5-42FE-BE33-5442370D00E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52F598BB-767A-4C36-9FB7-AAC3B9129325} = {67A1A256-FB1B-4F04-BEA0-E24F116D7D7A}
+		{3C9A6517-9EB5-42FE-BE33-5442370D00E6} = {67A1A256-FB1B-4F04-BEA0-E24F116D7D7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE43EB23-37F6-480F-BBDB-6126BF364174}
